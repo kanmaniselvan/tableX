@@ -1,0 +1,30 @@
+body {
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.active-cell {
+    border: 1px solid #007064 !important;
+}
+.tableX-txt-box {
+    height: 100%;
+    width: 100%;
+    background: none;
+}
+
+.projected {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5) !important;
+    z-index: 100;
+}
+
+.selected-area {
+    background: linear-gradient(to bottom, rgba(181,209,255,0.34) 0%,rgba(181,209,255,0.34) 100%);
+}
+.tableX-clipboard-text-area {
+    position: fixed;
+    top: 0;
+    left: -99999px;
+    width: 100%;
+    height: 100%;
+}
